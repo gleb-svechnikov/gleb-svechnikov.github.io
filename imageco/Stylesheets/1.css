@@ -1,0 +1,52 @@
+@charset "ascii";
+html, body {height: 100%;width: 100%;margin: 0;padding: 0;font-family: Arial, sans-serif;font-size: 10px;color: #3F3F3F;}
+table, tr, td {border-collapse: collapse;padding: 0;margin: 0;vertical-align: top;}
+a {text-decoration: none;color: transparent;}
+a:active {color: transparent;}
+a:hover {color: transparent;}img {border: 0;}
+p, ul, li {margin: 0;padding: 0;}
+li {list-style: none;}
+h1, h2, h3, h4, h5, h6 {font-family: Arial, sans-serif;font-size: 1em;font-weight: normal;margin: 0;padding: 0;}
+pre.Error {background: none #000;border-bottom: 1px solid #00EF00;}
+pre.Error a {display: block;padding: 10px;font-family: Courier;font-size: 12px;color: #00EF00;}
+pre.Error a:hover {color: #009600;}
+fieldset {padding: 0;margin: 0;border: 0;}
+
+body {background: #393430;font-size: 1.026em;}
+
+#TemplateWrapper {position: relative;width: 100%;min-width: 95.5em;}
+#Sorted-FAQ {position: fixed;width: 100%;height: 100%;z-index: 1000;visibility: hidden;}
+#Sorted-FAQ-Background {position: absolute;width: 100%;height: 100%;background: black;opacity: 0.8;}
+#Sorted-FAQ-Sheet {position: absolute;top: 50%;left: 50%;width: 69.6em;height: 97.0em;padding: 6.0em;margin-left: -38.0em;margin-top: -54.5em;background: white;}
+#Sorted-FAQ-Title {font-family: "Myriad Pro Light", Helvetica, Arial, sans-serif;font-size: 2.8em;line-height: 3.36em;margin-bottom: 1.2em;}
+#Sorted-FAQ-Logo {float: right;width: 26.8em;height: 14.0em;}
+#Sorted-FAQ-Sheet h4 {font-family: "Myriad Pro Light", Helvetica, Arial, sans-serif;font-size: 1.8em;line-height: 1.4em;color: #0890c2;}
+#Sorted-FAQ-Sheet p {font-family: Helvetica, Arial, sans-serif;font-size: 1.8em;line-height: 1.4em;margin-bottom: 1.4em;}
+#Sorted-FAQ-Close {position: absolute;z-index: 200;left: 100%;top: 0;width: 5.0em;height: 5.0em;margin-left: -2.5em;margin-top: -2.5em;cursor: pointer;}
+#Sorted-Desk {position: relative;min-width: 95.5em;width: 100%;max-width: 100%;overflow: hidden;height: 167.6em;}
+#Sorted-Desk-Background {position: absolute;z-index: -1;left: 50%;margin-left: -115.0em;width: 230.0em;height: 167.6em;}
+#Sorted-Header {position: absolute;left: 15.0em;top: 60.0em;width: 54.0em;}
+#Sorted-Logo {float: left;width: 26.8em;height: 14.0em;margin-bottom: 10.0em;}
+#Sorted-Name {font-family: "Myriad Pro Light", Helvetica, Arial, sans-serif;font-size: 8.2em;}
+#Sorted-Header p {font-family: Helvetica, Arial, sans-serif;font-size: 1.8em;margin-bottom: 1.0em;}
+#Sorted-Header p a {color: #444;}
+#Sorted-Header p a:hover {color: #000;}
+#Sorted-Pricing {position: absolute;right: 30.0em;top: 60.0em;}
+#Sorted-AppStore {display: block;font-size: 1.2em;width: 21.6em;height: 7.2em;margin-bottom: 2.0em;}
+#Sorted-AppStore img {width: 21.6em;height: 7.2em;}
+#Sorted-Pricing p {margin-left: 1.0em;font-family: Helvetica, Arial, sans-serif;font-size: 1.8em;}
+#Sorted-Pricing .Enormous {display: block;margin-left: -0.05em;margin-top: 0.2em;font-size: 5.4em;line-height: 0.8em;}
+#Sorted-Pricing .Enormous sup {font-size: 0.66em;line-height: 0.8em;}
+#Sorted-Footer {position: relative;min-width: 95.5em;max-width: 100%;width: 100%;height: 20.4em;background: url(./Images/Sorted/Footer-Background.jpg);-webkit-background-size: 13.3em 55.4em;}
+#Sorted-Footer-Buttons {position: relative;left: 50%;width: 122.5em;height: 23.5em;margin-left: -61.2em;padding-top: 6.4em;font-size: 1.3em;}
+.Sorted-Footer-Button {position: relative;display: block;float: left;width: 26.5em;height: 16.7em;overflow: visible;}
+.Sorted-Footer-Button + .Sorted-Footer-Button {margin-left: 5.4em;}
+.Sorted-Footer-Button .Label {position: absolute;display: block;z-index: 200;width: 100%;color: white;text-align: center;margin-top: 1.2em;font-family: Helvetica, Arial, sans-serif;font-size: 1.8em;}
+.Sorted-Footer-Button .Background {position: absolute;display: block;z-index: 100;margin-left: -1.4em;margin-top: -1.4em;padding: 1.4em;width: 26.5em;height: 16.7em;background: black;opacity: 0.2;}
+.Sorted-Footer-Button img {position: relative;display: block;z-index: 200;width: 26.5em;height: 16.7em;}
+#Sorted-Footer-Logo {position: relative;display: block;left: 50%;width: 5.7em;height: 11.4em;margin-left: -2.85em;margin-bottom: 2.0em;}
+#Sorted-Footer-Logo img {width: 5.7em;height: 11.4em;}
+#Sorted-Footer p {text-align: center;font-family: Helvetica, Arial, sans-serif;font-size: 1.2em;color: #828282;}
+#Sorted-Video {position: absolute;top: 40.2em;left: 84.5em;width: 62.8em;height: 83.8em;}
+#Sorted-Video img {position: absolute;width: 100%;height: 100%;opacity: 0;}
+@media screen and (max-device-width: 768px) and (orientation:portrait) {#Sorted-Header {font-size: 1.6em;left: 50%;margin-left: -22.5em;top: 13.0em;width: 45.0em;text-align: center;}#Sorted-Logo {float: none;width: 9.4em;height: 9.4em;margin-bottom: -1.8em;line-height: 1em;}#Sorted-Name {display: inline;}#Sorted-FAQ {font-size: 2.2em;}#Sorted-Pricing {font-size: 1em;left: 50%;top: 180.0em;}#Sorted-AppStore {position: absolute;left: 2em;}#Sorted-Pricing p {position: absolute;left: -15.0em;}#Sorted-Desk {width: 230.0em;height: 289.8em;background: url(./Images/Sorted/Background-iPad-Portrait.jpg) no-repeat;-webkit-background-size: 230.0em 289.8em;}#Sorted-Video {top: 69.0em;left: 60.6em;width: 109.2em;height: 145.6em;}#Sorted-Footer {height: 97.2em;-webkit-background-size: 23.4em 97.2em;}#Sorted-Footer-Buttons {width: 61.3em;margin-left: -30.6em;height: 52.0em;}.Sorted-Footer-Button {margin-bottom: 8.2em;}.Sorted-Footer-Button + .Sorted-Footer-Button + .Sorted-Footer-Button {margin-left: 0em;}.Sorted-Footer-Button + .Sorted-Footer-Button + .Sorted-Footer-Button + .Sorted-Footer-Button {margin-left: 5.4em;}#Sorted-Footer p {font-size: 2.2em;}}@media screen and (max-device-width: 768px) and (orientation:landscape) {#Sorted-Header {font-size: 1.2em;left: 12.0em;top: 60.0em;}#Sorted-Pricing {font-size: 1.2em;right: 20.0em;top: 56.0em;}#Sorted-FAQ {font-size: 1.3em;}#Sorted-Desk {width: 230.0em;height: 154.5em;background: url(./Images/Sorted/Background-iPad-Landscape.jpg) no-repeat;-webkit-background-size: 230.0em 154.5em;}#Sorted-Video {top: 28.2em;left: 74.5em;width: 79.6em;height: 106.0em;}#Sorted-Footer p {font-size: 2.2em;}}

@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+<div id="fb-root"></div>
+      <script>
+      	
+        window.fbAsyncInit = function() {
+        	FB.locale = "pt_BR";
+          FB.init({
+            appId      : '264105203624821',
+            status     : true, 
+            cookie     : true,
+            xfbml      : true
+          });
+        };
+        (function(d){
+           var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+           js = d.createElement('script'); js.id = id; js.async = true;
+           js.src = "//connect.facebook.net/de_DE/all.js";
+           d.getElementsByTagName('head')[0].appendChild(js);
+         }(document));
+      </script>
+      <div class="fb-login-button">Login with Facebook</div></body>
+      <div class="fb-comments" data-href="example.com" data-num-posts="2" data-width="500"></div>
+</html>

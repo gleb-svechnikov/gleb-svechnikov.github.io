@@ -1,0 +1,32 @@
+ul#items{
+	margin:0 auto;
+	width:300px;
+	height:420px;
+	
+	}
+ul#items li{
+	float:left;
+	display: block;
+	margin-bottom: 20px;
+	width:200px;
+	height:60px;
+	border: 1px solid black;
+	color:#000;
+	list-style:none;
+	text-align:center;
+	
+	}
+#pagination{
+	bottom: 0;
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+}	
+ol#pagination{}
+ol#pagination li{
+	float:left;
+	margin:0 0 0 .5em;
+	list-style:none;
+	cursor:pointer;
+	}
+ol#pagination li.current{color:#f00;font-weight:bold;}

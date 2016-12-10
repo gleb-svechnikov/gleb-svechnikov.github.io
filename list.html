@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>To Day</title>
+		<link rel="stylesheet" href="styles/screen.css" media="screen" />
+		<script type="text/javascript" src="http://use.typekit.com/umv3zfw.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script src="scripts/global.js"></script>		
+	</head>
+	<body>
+		<header>
+			<h1>To-Day</h1>
+			<p>Plan out your day the <a href="http://www.pomodorotechnique.com/">Pomodoro</a> way: 30 minute blocks of 25 minutes of work and a 5 minute break. Try adding some tasks to get started.</p>
+
+		</header>
+		<section id="plan">
+			<section class="first hour group">
+				<select id="first-hour" class="time">
+					<option>7 am</option>
+					<option>8 am</option>
+					<option>9 am</option>
+
+					<option>10 am</option>
+				</select>
+				<span class="bracket">{</span>
+				<dl>
+					<dt>:00</dt>
+					<dd><input type="text" name="hour-1-task-1" value="" placeholder="Start work on design" /></dd>
+					<dt>:30</dt>
+
+					<dd><input type="text" name="hour-1-task-2" value="" placeholder="Finish up HTML &amp; CSS" /></dd>
+				</dl>
+			</section>
+			<section class="hour group">
+				<p class="time">8 am</p>
+				<span class="bracket">{</span>
+				<dl>
+					<dt>:00</dt>
+
+					<dd><input type="text" name="hour-2-task-1" value="" /></dd>
+					<dt>:30</dt>
+					<dd><input type="text" name="hour-2-task-2" value="" /></dd>
+				</dl>
+			</section>
+		</section>
+		<footer>
+			<p>A <a href="http://twitter.com/wesbaker">Wes Baker</a> production. Keep up the good work.</p>
+
+		</footer>
+	</body>
+</html>

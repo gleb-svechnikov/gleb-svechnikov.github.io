@@ -1,0 +1,36 @@
+@charset "ascii";
+html, body {height: 100%;width: 100%;margin: 0;padding: 0;font-family: Arial, sans-serif;font-size: 10px;color: #3F3F3F;}
+a {text-decoration: none;color: transparent;}
+a:active {color: transparent;}
+a:hover {color: transparent;}
+img {border: 0;}
+p, ul, li {margin: 0;padding: 0;}
+li {list-style: none;}
+h1, h2, h3, h4, h5, h6 {font-family: Arial, sans-serif;font-size: 1em;font-weight: normal;margin: 0;padding: 0;}
+fieldset {padding: 0;margin: 0;border: 0;}
+
+body {background: #393430;font-size: 1.026em;}
+
+#TemplateWrapper {position: static;width: 100%; min-width: 768px;}
+#Sorted-Desk {position: relative;width: 100%;max-width: 100%;overflow: hidden;height: 167.6em;}
+#Sorted-Desk-Background {position: static;z-index: -1; width: 230.0em;height: 167.6em;}
+#Sorted-Header {position: absolute; left: 10%; top: 40.0em; width: 200px;}
+/* #Sorted-Logo {float: left; width: 60%;} */
+
+#Sorted-Header p {font-family: Helvetica, Arial, sans-serif; font-size: 10pt;}
+#Sorted-Header p a {color: #444;}
+#Sorted-Header p a:hover {color: #000;}
+
+#Icons {position: absolute; top: 55em; left: 165em; width: 61em;}
+#Big-Icon {position: absolute; top: 55em; left: 165em; width: 175px; height: 175px;}
+#icon-1 img{ width: 12em; float: left; padding-left: 20px;}
+#icon-2 img{width: 12em; float: left; padding-left: 20px;}
+#icon-3 img{ width: 12em; float: left; padding-left: 20px;}
+
+#Sorted-Footer {position: relative; width: 100%;height: 20.4em; background: url(./Images/Sorted/Footer-Background.jpg);}
+
+#Sorted-Footer-Logo {position: relative; left: 50%;width: 5.7em;height: 11.4em;margin-left: -2.85em;margin-bottom: 2.0em;}
+#Sorted-Footer-Logo img {width: 5.7em;height: 11.4em;}
+#Sorted-Footer p {text-align: center;font-family: Helvetica, Arial, sans-serif;font-size: 10pt;color: #828282;}
+#Sorted-Video {position: absolute;top: 40.2em;left: 86.5em;width: 62.8em;height: 83.8em;}
+#Sorted-Video img {position: absolute;width: 100%;height: 100%;opacity: 0;}

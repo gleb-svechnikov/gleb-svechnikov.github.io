@@ -1,0 +1,251 @@
+@font-face {
+  font-family: Zeferino;
+  src: url(Zeferino.ttf);
+}
+@font-face {
+  font-family: Annabelle;
+  src: url(Annabelle.ttf);
+}
+body{
+	position: relative;
+	top: -10px;
+	left: -8px;
+	width: 100%;
+	width: 100%; 
+	background-color: white;
+	font-family: 'Helvetica';
+}
+header{
+	width: 100%;
+	height: 500px;
+	background-image: url('header.png');
+	line-height: 0%;
+}
+
+header img{
+	position: absolute;
+	top: 10px;
+	left: 60px;
+	z-index: 2000;
+	display: block;
+	width: 152px;
+}
+blockquote{
+	margin: 20px;
+	text-align: center;
+	font-size: 30px;
+	font-family: Annabelle;
+}
+nav{
+	display: block;
+	padding: 1px;
+	height: 1%;
+	background: #222;
+	color: #eee;
+	text-align: center;
+	line-height: 40px;
+	font-weight: 100; 
+	font-size: 23px; 
+	font-family: "Arial";
+}
+nav a{
+	margin: 0 17px;
+	width: 100%;
+	color: #eee;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+nav a:hover{
+	border-bottom: 2px solid #eee;
+/* text-decoration: underline; */
+	text-shadow: 2px;
+/* font-size: 28px; */
+	
+}
+.last{
+	border-color: #222;
+}
+
+
+#content{
+	position: relative;
+	margin: 0 auto;
+	padding-top: 15px;
+	width: 1090px;
+	border-radius: 10px;
+}
+#content h1{
+	font-size: 22px;
+	font-family: 'PT Serif Caption', serif;
+}
+
+#left{
+	position: relative;
+	float: left;
+	padding: 0 10px;
+	width: 400px;
+	height: 210px;
+	border: 2px solid #ddd;
+	border-radius: 15px;
+	color: #111;
+	font-family: 'PT Serif Caption', serif;
+}
+#left p{
+	font-size: 16px;	
+	font-family: 'PT Serif Caption', serif;
+		padding-left: 150px;
+
+}
+
+#left img{ padding: 15px; padding-top: 23px;}
+#left:hover{ border: 2px solid #555;}
+
+#left1{
+	position: relative;
+	float: left;
+	padding: 0 10px;
+	width: 400px;
+	height: 210px;
+	border: 2px solid #ddd;
+	border-radius: 15px;
+	color: #111;
+}
+#left1 p{
+	font-size: 16px;	
+	font-family: 'PT Serif Caption', serif;
+}
+#left1 img{ padding: 15px;}
+#left1:hover{ border: 2px solid #555;}
+#right1{
+	position: relative;
+	float: left;
+	margin-left: 20px;
+	padding: 10px 0 0 20px;
+	width: 600px;
+	height: 210px;
+	border: 2px solid #ddd;
+	border-radius: 15px;
+	color: #111;
+	font-size: 17px;
+	font-family: 'PT Serif Caption', serif;
+}
+#right1 ul{
+	color: #111;
+	font-size: 15px;	
+	font-family: 'PT Serif Caption', serif;
+}
+
+#right1 p{
+	color: #111;
+	font-size: 14px;	
+	font-family: 'PT Serif Caption', serif;
+	
+
+}
+#right1:hover{ border: 2px solid #555;}
+.lang{
+	clear: both;
+	text-align: center;
+	padding-top: 20px;
+	display: block;
+	color: #555;
+}
+.lang a{
+	font-family: 'PT Serif Caption', serif;
+	color: #555;
+	text-decoration: none;
+}
+.lang a:hover{
+	color: #000;
+	-webkit-transition: color 1s linear;
+}
+
+
+.lang img{
+	width: 20px;
+	height: 20px;
+	vertical-align: bottom;
+}
+img.flag{
+	opacity: 0.5;
+	-webkit-transition: opacity 1s linear;
+}
+img.flag:hover{
+	opacity: 1;
+	-webkit-transition: opacity 1s linear;
+}
+
+
+#slider{
+	position: relative;
+	display: block;
+	margin: auto;
+	width: 950px;
+	height: 350px;
+	border-radius: 20px;
+	background-image: url(test.png);
+/* -webkit-box-shadow: 0 0 5px 5px#333; */
+/* -moz-box-shadow: 0 0 5px 5px #333; */
+/* box-shadow: 0 0 5px 5px #aaa; */
+}
+#info{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+	display: block;
+	width: 300px;
+	height: 530px;
+	background: #ddd;
+	opacity:0.9;
+}
+#info ul{
+	margin-left: -41px;
+	padding-top: 150px;
+	color: black;
+	list-style-type: none;
+	font-size: 25px;
+	
+}
+#info li{
+	z-index: 2500;
+/* margin-top: 11px; */
+	padding-top: 11px;
+	padding-left: 55px;
+	height: 36px;
+/* line-height: 22px; */
+}
+.selected{
+	z-index: 3500;
+	height: 35px;
+	background-color: black;
+	color: white ;
+	opacity: 1;
+
+}
+section{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	padding-left: 20px;
+	width: 800px;
+	border-radius: 20px;
+	background-color: #eee;
+	color: black;
+	font-size: large;
+	font-family: 'PT Serif Caption', serif;
+/* opacity: 0.7; */
+}
+footer{
+	width: 100%;
+	height: 30px;
+	background: black;
+	color: #777;
+	text-align: center;
+	font-size: 12px;
+}
+footer p{
+	padding-top: 10px;
+}

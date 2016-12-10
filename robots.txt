@@ -1,0 +1,12 @@
+User-Agent: *
+Allow: /
+Disallow: /nik.html
+Disallow: /demo.html
+Disallow: /test.html
+Disallow: /noseda
+Disallow: /Jit
+Disallow: /projects
+Disallow: /alex
+Disallow: /music
+Disallow: /edu
+Disallow: /sony

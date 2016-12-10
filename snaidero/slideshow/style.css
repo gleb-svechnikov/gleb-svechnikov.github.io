@@ -1,0 +1,10 @@
+#slideshow {
+  width: 700;
+  height: 340px;
+}
+.pause{
+	z-index: 200;
+	position: absolute;
+	top: 365px;
+	left: 600px;
+}

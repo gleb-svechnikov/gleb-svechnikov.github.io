@@ -1,0 +1,47 @@
+@media screen and (max-device-width: 768px) and (orientation:portrait){
+	#TemplateWrapper {height: 800px;}
+	#Sorted-Header {
+		font-size: 1.6em;
+		left: 5em;top: 18.0em;
+		width: 35.0em;
+		text-align: left;
+	}
+	#Icons {
+		font-size: 1em;
+		left: 160em;
+		top: 60.0em;
+	}
+	#Sorted-Desk {
+		width: 230.0em;
+		height: 168em;
+		background: url(./Images/Sorted/Background-iPad-Portrait.jpg) no-repeat;
+	}
+	#Sorted-Video {
+		position: absolute;
+		top: 41.7em;
+		left: 82em;
+		width: 65em;
+		height: 85em;}
+	#Sorted-Footer {height: 27.2em;}
+	#Sorted-Footer p {font-size: 10pt;}
+}
+@media screen and (max-device-width: 768px) and (orientation:landscape){
+	#Sorted-Header {font-size: 1.2em;left: 12.0em;top: 40.0em;}
+	#Icons {
+		font-size: 1.2em;
+		left: 140.0em;
+		top: 56.0em;
+	}
+	#Sorted-Desk {
+		width: 230.0em;
+		height: 154.5em;
+		background: url(./Images/Sorted/Background-iPad-Landscape.jpg) no-repeat;
+	}
+	#Sorted-Video {
+		top: 39.3em;
+		left: 87em;
+		width: 62em;
+		height: 84em;
+	}
+	#Sorted-Footer p {font-size: 10pt;}
+}

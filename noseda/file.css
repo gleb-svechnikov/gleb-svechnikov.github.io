@@ -1,0 +1,10 @@
+body{
+position: relative;
+margin: 0;
+}
+blockquote{
+	font-family: Annabelle;
+	text-align: center;
+	font-size: 30px;
+	line-height: 0;
+}
