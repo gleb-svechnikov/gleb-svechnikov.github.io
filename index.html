@@ -3,72 +3,101 @@
 	<head>
 		<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
 		<link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700&amp;subset=cyrillic" rel="stylesheet">
-		<link rel="stylesheet" href="styles/layout.css" type="text/css" />
-
+		<link rel="stylesheet" href="styles/layout.css" type="text/css"/>
 		<title>My website</title>
 		<script type="text/javascript">
-			var _gaq = _gaq || [];
-  				_gaq.push(['_setAccount', 'UA-27949085-1']);
-  				_gaq.push(['_trackPageview']);
-  			(function() {
-    			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  			})();
+			(function (f, b) {
+				if (!b.__SV) {
+					var e,
+						g,
+						i,
+						h;
+					window.mixpanel = b;
+					b._i = [];
+					b.init = function (e, f, c) {
+						function g(a, d) {
+							var b = d.split(".");
+							2 == b.length && (a = a[b[0]], d = b[1]);
+							a[d] = function () {
+								a.push([d].concat(Array.prototype.slice.call(arguments, 0)))
+							}
+						}
+						var a = b;
+						"undefined" !== typeof c
+							? a = b[c] = []
+							: c = "mixpanel";
+						a.people = a.people || [];
+						a.toString = function (a) {
+							var d = "mixpanel";
+							"mixpanel" !== c && (d += "." + c);
+							a || (d += " (stub)");
+							return d
+						};
+						a.people.toString = function () {
+							return a.toString(1) + ".people (stub)"
+						};
+						i = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+						for (h = 0; h < i.length; h++) 
+							g(a, i[h]);
+						var j = "set set_once union unset remove delete".split(" ");
+						a.get_group = function () {
+							function b(c) {
+								d[c] = function () {
+									call2_args = arguments;
+									call2 = [c].concat(Array.prototype.slice.call(call2_args, 0));
+									a.push([e, call2])
+								}
+							}
+							for (var d = {}, e = ["get_group"].concat(Array.prototype.slice.call(arguments, 0)), c = 0; c < j.length; c++) 
+								b(j[c]);
+							return d
+						};
+						b
+							._i
+							.push([e, f, c])
+					};
+					b.__SV = 1.2;
+					e = f.createElement("script");
+					e.type = "text/javascript";
+					e.async = !0;
+					e.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL
+						? MIXPANEL_CUSTOM_LIB_URL
+						: "file:" === f.location.protocol && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)
+							? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"
+							: "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";
+					g = f.getElementsByTagName("script")[0];
+					g
+						.parentNode
+						.insertBefore(e, g)
+				}
+			})(document, window.mixpanel || []);
+
+			// Enabling the debug mode flag is useful during implementation,
+			// but it's recommended you remove it for production
+			mixpanel.init('6b8043c641a28cfb8485746a114d8013', {debug: true});
+			mixpanel.track('Sign up');
 		</script>
 	</head>
-<body>
-
-	<!-- <div id="floater"></div>
-	<div id = "wrap">
-		<header id="header">
-			<h1 id = "logo">Gleb<span style="color: #grey">.</span>Svechnikov<span style="color: #grey">.</span><span style="color: #ffcd33">me</span></h1>
-			<div id = "info">
-				<a href="callto:gleb.svechnikov"><img src="images/skype.png" title="Call me on skype"/></a>
-				<a href="mailto:gleb.svechnikov@gmail.com"><img src="images/gmail.png" title="Write me an email"/></a>
-				<a href="data/vcard.vcf"><img src="images/vcard.png" title="Download my vCard"/> </a>
-			</div>
-
-			<div id="photo"><img src="images/me.jpg" alt="me" width="" height="" /></div>
-		</header>
-		<nav id = "menu">
-			<ul>
-				<li><a href="index.html">Short bio</a></li>
-				<li><a href="/experience">Experience</a></li>
-				<li><a href="/projects">Projects</a></li>
-				<li><a href="/life">Life</a></li>
-				<li><a href="/about">Socials</a></li>
-			<ul/>
-		</nav>
-		<div id="content">
-			<p>That's me Svechnikov Gleb  <span style="color: grey;"> [Свечников Глеб]</span></p>
-			<p>I was born in Moscow in 1987, few years ago I temporally moved to <a href="http://maps.google.com/maps?q=Como+Como,+Italy&hl=en&ll=45.812051,9.085693&spn=0.033741,0.077162&sll=37.0625,-95.677068&sspn=39.184175,79.013672&oq=COmo&t=h&hnear=Como,+Lombardy,+Italy&z=14">Como</a> for my double degree study program.
-			Currently I live in <a href="https://maps.google.ru/maps?q=st+petersburg&hl=en&hnear=St+Petersburg&t=h&z=8">St. Petersburg</a> and working as UI developer for <a href="intermedia.net">Intermedia</a>.
- 			</p>
- 			<p>My field interests focused around:
-	 			<ol>
-	 				<li><strong>Web technologies</strong>, mainly: front end development, wed design, data visualization, UI.</li>
-	 				<li><strong>Information society</strong> in particular e-learning and digital fabrication</li>
-	 			</ol>
- 			</p>
- 			<p>Also I give private consultancy about web related issues (CMS, website management, cloud services management etc.) and 3d printing if you need my help just <a href="mailto:gleb.svechnikov@gmail.com">ask me</a>.</p>
-		</div>
-	</div> -->
-	<main>
-		<picture>
- <source srcset="images/me2.jpg" media="(max-width: 600px)">
- <img src="images/me3.jpg" alt="Gleb Svechnikov photo">
-</picture>
-<section class="info">
-<h1>Gleb Svechnikov</h1>
-<p><abbr title="user interface">UI</abbr> Developer</p>
-<address class="">
-	Curently I live and work in Saint-Petersburg(Russia)
-	You may contact me via <a href="mailto:gleb.svechnikov@gmail.com">Email</a>
-	 <a href="tel:+79118210247">Phone</a>
- </secton>
-
-</address>
-	</main>
-</body>
+	<body>
+		<main>
+			<picture>
+				<source srcset="images/me2.jpg" media="(max-width: 600px)">
+				<img src="images/me3.jpg" alt="Gleb Svechnikov photo">
+			</picture>
+			<section class="info">
+				<h1>Gleb Svechnikov</h1>
+				<p>
+					<abbr title="user interface">UI</abbr> Developer
+				</p>
+				<address class="">
+					Curently I live and work in Antalya(Turkey)
+					You may contact me via <a href="mailto:gleb.svechnikov@gmail.com">Email</a>
+					<a href="tel:+79118210247">Phone</a>
+				</address>
+				<p>
+					My <abbr title="Curriculum Vitae"><a href="./Curriculum Vitae.pdf">CV</a></abbr>
+				</p>
+			</secton>
+		</main>
+	</body>
 </html>
