@@ -1,0 +1,25 @@
+{
+  "name": "gleb-svechnikov.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "personal site",
+  "dependencies": {
+    "mermaid": "10.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gleb-svechnikov/gleb-svechnikov.github.io"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "2.0.1"
+  },
+  "scripts": {
+    "build": "npx eleventy --pathprefix 'dist'",
+    "dev": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
