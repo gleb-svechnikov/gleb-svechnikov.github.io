@@ -4,6 +4,7 @@
   "private": true,
   "description": "personal site",
   "dependencies": {
+    "@kevingimbel/eleventy-plugin-mermaid": "^2.1.0",
     "mermaid": "10.3.1"
   },
   "repository": {
