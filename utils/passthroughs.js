@@ -4,4 +4,5 @@ module.exports = [
     'src/images',
     'src/styles',
     'src/scripts',
+    'src/docs',
   ]
