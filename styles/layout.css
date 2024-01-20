@@ -18,7 +18,7 @@ main {
     margin: 2rem;
 }
 
-@media screen and (width <=900px) {
+@media screen  and (width <= 900px) { 
     main {
         flex-direction: column;
     }
