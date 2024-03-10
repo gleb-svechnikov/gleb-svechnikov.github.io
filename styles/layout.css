@@ -17,6 +17,11 @@ main {
     gap: 2rem;
     margin: 2rem;
 }
+a{
+    text-decoration-line: dashed;
+    text-underline-offset: 4px;
+    color: inherit;
+}
 
 @media screen  and (width <= 900px) { 
     main {
